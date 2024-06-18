@@ -4,6 +4,10 @@ module.exports =
   content: ["*"],theme:
   {
     extend:{
+      backgroundImage: {
+        'backgroundimage': "url('/assets1/background1.jpg')",
+        // 'footer-texture': "url('/img/footer-texture.png')",
+      },
       fontFamily:
       {
       mullish:["Mulish" , "sans-serif"],
